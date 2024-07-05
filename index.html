@@ -10,13 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@300;400;500;600;700;800;900&family=Prompt&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script src="main.js"></script>
     <header>
         <nav>
             <a id="logo" href="index.html">DIV/></a>
-            <div id="hamburger">
+            <div id="hamburger" onclick="on()">
                 <div class="hamburger-line"></div>
                 <div class="hamburger-line"></div>
                 <div class="hamburger-line"></div>
+            </div>
+            <div id="cross" onclick="off()">
+                <div id="diagonal-1"></div>
+                <div id="diagonal-2"></div>
             </div>
             <div id="contain">
                 <ul>

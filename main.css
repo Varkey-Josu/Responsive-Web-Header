@@ -104,6 +104,21 @@ a{
     justify-content: center;
     flex-wrap: wrap;
 }
+#cross{
+    display: none;
+}
+#diagonal-1,#diagonal-2{
+    width: 20px;
+    height: 2px;
+    margin: -1.07px;
+    background-color: #afaeae;
+}
+#diagonal-1{
+    rotate: 45deg;
+}
+#diagonal-2{
+    rotate:-45deg
+}
 
 @media (max-width:760px){
     nav{
